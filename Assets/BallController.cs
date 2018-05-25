@@ -45,7 +45,7 @@ public class BallController : MonoBehaviour {
 		if (other.gameObject.tag == "LargeCloudTag") {
 			score += 15;
 		}
-		Debug.Log (score);
+		//Debug.Log (score);
 		this.sctext.GetComponent<Text> ().text =score.ToString();
 			
 
